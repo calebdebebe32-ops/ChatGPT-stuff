@@ -1,0 +1,22 @@
+administrator@DESKTOP-CDM949K:/mnt/c/Users/Administrator$ httrack "https://run.miraheze.org/wiki" \
+> -O "/mnt/c/Users/Administrator/run_wiki" \
+> "+*.run.miraheze.org/*" \
+> "-*" \
+> --mirror \
+> --depth=3
+Mirror launched on Sun, 03 May 2026 18:35:14 by HTTrack Website Copier/3.49-5 [XR&CO'2014]
+mirroring https://run.miraheze.org/wiki +*.run.miraheze.org/* -* with the wizard help..
+Done.https://run.miraheze.org/wiki/ (0 bytes) - 301
+Thanks for using HTTrack!
+administrator@DESKTOP-CDM949K:/mnt/c/Users/Administrator$ httrack "https://run.miraheze.org/wiki" -O "/mnt/c/Users/Administrator/run_wiki" "+*.run.miraheze.org/*" "-*" --mirror --depth=3
+There is an index.html and a hts-cache folder in the directory /mnt/c/Users/Administrator/run_wiki/
+A site may have been mirrored here, that could mean that you want to update it
+Be sure parameters are ok
+
+Press <Y><Enter> to confirm, <N><Enter> to abort
+
+Mirror launched on Sun, 03 May 2026 18:36:28 by HTTrack Website Copier/3.49-5 [XR&CO'2014]
+mirroring https://run.miraheze.org/wiki +*.run.miraheze.org/* -* with the wizard help..
+Done.https://run.miraheze.org/wiki/ (0 bytes) - 301
+Thanks for using HTTrack!
+administrator@DESKTOP-CDM949K:/mnt/c/Users/Administrator$ exit
